@@ -8,6 +8,8 @@ then
 elif [ $a -gt $b ]
 then
    echo "$a is greater than $b"
+   echo "$a is maximum"
 else
    echo "$a is lesser than $b"
+   echo "$ is maximum"
 fi
